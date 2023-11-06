@@ -84,3 +84,15 @@ Compensation from the persistence layer.
 
 ## Delivery
 Please upload your results to a publicly accessible Git repo. Free ones are provided by Github and Bitbucket.
+
+## Testing
+Testing can be performed with `gradle test` or by performing manual operations. An example body may be found below.
+
+Compensation:
+```
+{
+    "employeeId": "16a596ae-edd3-4847-99fe-c4518e82c86f",
+    "salary": 100000,
+    "effectiveDate": "2023-10-23"
+}
+```
